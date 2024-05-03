@@ -20,6 +20,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+            <head>
+             {/* eslint-disable-next-line @next/next/no-sync-scripts */}
+            <script
+          src="https://static.soulmachines.com/widget-snippet-1.12.0.min.js"
+          data-sm-api-key="eyJzb3VsSWQiOiJkZG5hLWxwZmxleDk4MWQtLWV4cGxvcmVyIiwiYXV0aFNlcnZlciI6Imh0dHBzOi8vZGguc291bG1hY2hpbmVzLmNsb3VkL2FwaS9qd3QiLCJhdXRoVG9rZW4iOiJhcGlrZXlfdjFfNDE5ZTNjYjEtMDRmOS00ZGZmLWFkYjItM2FlY2VjZmY3ODMxIn0="
+          data-sm-position="bottomLeft"
+          data-sm-greeting="Welcome"
+          data-sm-layout="fullFrame"
+          data-sm-profile-picture="https://assets.cdn.soulmachines.cloud/AvatarCoverImages/image-sam-l.jpg"
+        ></script>
+            </head>
       <body className={inter.className}>{children}</body>
     </html>
   );

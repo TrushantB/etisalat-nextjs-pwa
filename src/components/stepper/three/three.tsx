@@ -1,6 +1,6 @@
 import React from "react";
 
-const Three = () => {
+const Three = ({setStep}: any) => {
   return (
     <div className="  bg-gradient-to-r from-[#0A0A0A] to-[#E00800] py-5 grid grid-cols-3 px-5 gap-5 ">
       <div className="flex flex-col relative">
