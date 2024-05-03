@@ -18,6 +18,23 @@ const Three = () => {
         <p className="text-center text-sm">Prepaid Plans</p>
       </div>
 
+      <div className="flex flex-col relative">
+        <p className="text-[8px] bg-[#E00800] rounded-md w-auto absolute p-1 -top-2 left-1 flex text-white">
+          FREE voucher
+        </p>
+        <div className="bg-white  flex flex-col  justify-center items-center p-3 gap-2 rounded-md">
+          <img className="w-8 h-8" src="/images/postpaid.svg" alt="" />
+          <p className="text-center text-sm">Tv & Internet</p>
+        </div>
+      </div>
+      <div className="bg-white flex flex-col gap-2 p-3 justify-center items-center rounded-md">
+        <img className="w-8 h-8" src="/images/postpaid.svg" alt="" />
+        <p className="text-center text-sm">Tv & Internet</p>
+      </div>
+      <div className="bg-white flex flex-col gap-2 p-3 justify-center items-center rounded-md">
+        <img className="w-8 h-8" src="/images/postpaid.svg" alt="" />
+        <p className="text-center text-sm">Tv & Internet</p>
+      </div>
       <div className="bg-white flex flex-col gap-2 p-3 justify-center items-center rounded-md">
         <img className="w-8 h-8" src="/images/postpaid.svg" alt="" />
         <p className="text-center text-sm">Tv & Internet</p>
